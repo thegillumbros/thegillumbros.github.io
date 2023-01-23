@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Gillum Bros</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="row">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href="index.html">THE GILLUM BROS</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <img src="assets/navbar-icon.png">
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="music.html">Music</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="shows.html">Shows</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+
+        <section style=" min-height: calc(100vh - 340px);">
+        </section>
+        <div class="row">
+            <footer>
+                <div class="row">
+                    <div class="col-sm-6 border-right">
+                        <fieldset>
+                            <h4>“This brother duo knows how to
+                                make fun, interesting and
+                                unique pop-rock that
+                                paints a vivid picture with
+                                musical color."</h4>
+                            <p>~ Detroit CW50</p>
+                        </fieldset>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <h4>Social Connect</h4>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCU_6oQoUxstV1LqbMNk7Q0g/featured" target="_blank"><img src="assets/youtube.png"></a></li>
+<!--                            <li class="list-inline-item"><a href="https://twitter.com/yusho_race" target="_blank"><img src="assets/twitter.png"></a></li>-->
+                            <li class="list-inline-item"><a href="https://www.instagram.com/thegillumbros/?hl=en" target="_blank"><img src="assets/instagram.png"></a></li>
+                            <li class="list-inline-item"><a href="https://thegillumbros.bandcamp.com/" target="_blank"><img src="assets/bandcamp.png"></a></li>
+                        </ul>
+<!--                        <audio controls="controls">-->
+<!--                            src="">-->
+<!--                        </audio>-->
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!----script for Mobile Menu-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navbarNav");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
