@@ -8,15 +8,6 @@ img {
     width: auto;
 }
 
-#my-schema {
-  display: none;
-}
-
-
-script[type="application/ld+json"] {
-display:none;
-}
-
 body 
 {
     background-color: dodgerblue;
