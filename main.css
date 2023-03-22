@@ -8,6 +8,10 @@ img {
     width: auto;
 }
 
+script[type="application/ld+json"] {
+display:none;
+}
+
 body 
 {
     background-color: dodgerblue;
